@@ -84,10 +84,10 @@ if authentication_status:
         table_list=table_candidate_list
     
     if st.sidebar.checkbox(":orange[Proceed]"):        
-        with st.expander(":orange[View the ERD Diagram]"):
+        with st.expander(":orange[View the ER Diagram]"):
             response = generate_erd_mermaid(catalog,schema,table_list)
             if st.button("Regenerate"):
-                # Creating the ERD Diagram
+                # Creating the ER Diagram
                 generate_erd_mermaid.clear()
                 response = generate_erd_mermaid(catalog,schema,table_list)
                 mermaid_code = extract_code_block(response,code_type='mermaid')
