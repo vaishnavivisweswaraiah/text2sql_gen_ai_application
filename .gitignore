@@ -1,0 +1,20 @@
+# Environment config
+.env
+.env.*
+
+# Bytecode cache
+__pycache__/
+
+# Developer-specific folders
+developers_src/
+text2SQL_live.py
+.vscode/
+.ipynb
+*.mov
+artifacts/sqlGenDemo.mov
+
+# macOS system files
+*.DS_Store
+
+# Authentication config
+authenticator.yml
