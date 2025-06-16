@@ -131,7 +131,7 @@ streamlit run SQLGen.py
 Then visit http://localhost:8501 in your browser.
 
 ## 🗂️ Project Structure
-```css
+```
 sql-gen-ai-application/
 ├── .streamlit/                   # Streamlit UI configuration
 │   └── config.toml               # Theme and layout settings
